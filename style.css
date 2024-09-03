@@ -1,0 +1,100 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+body{
+    margin:0;
+    background-color: black;
+}
+.navbar{
+    display: flex;
+    color: rgb(249, 246, 246);
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(76, 198, 250);
+    padding-left: 20px;
+}
+.navbar_left{
+    display: flex;
+    text-align: end;
+    padding right: 10px;
+    align-items: center;
+    justify-content: space-between:
+}
+.navbar_right{
+    padding-left: 40px;
+}
+
+.element{
+    padding: 10px;
+    margin: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+.Home{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    color: aliceblue;
+    height: 95vh;
+}_
+h1{
+    text-align: center;
+    font-family: "Cedarville Cursive", cursive;
+}
+.Home_left{
+    width: 50vw;
+    text-align: right;
+    padding-left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.Home_right{
+    width: 50vw;
+    padding-left: 100px;
+    
+    
+}
+
+.Services{
+    text-align: center;
+    color:rgb(87, 238, 87);
+    background-color:black;
+    font-size: large;
+    font-style: italic;
+    
+
+}
+.services_card{
+    color: aliceblue;
+    font-size: small;
+    font-style: bold;
+    border:2px solid rgb(196, 199, 196);
+    margin:50px;
+    padding:30px;
+    
+}
+.servicessubcont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.contact{
+    text-align: center;
+    color: aliceblue;
+}
+.contactinfo{
+    font-size: large;
+    font-style: italic;
+    color: rgb(112, 231, 112);
+    
+}
+.contact_info{
+    font-size: small;
+    font-style: normal;
+    color: aliceblue;
+    border: 2px solid white;
+    margin:100px;
+    padding: 1px;
+
+}
